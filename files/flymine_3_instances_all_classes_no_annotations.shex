@@ -1,0 +1,2591 @@
+PREFIX ex: <http://example.org/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bio2rdf: <http://bio2rdf.org/>
+PREFIX weso-s: <http://weso.es/shapes/>
+
+weso-s:intermine_voc:BindingSite   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:factor_id  IRI  ;                     # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {30};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:BindingSite]               # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:BindingSite:40000006
+
+
+weso-s:intermine_voc:InteractionTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  IRI  +;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1436}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {70}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {338}
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:InteractionTerm]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:InteractionTerm:33000005
+
+
+weso-s:intermine_voc:AnatomyTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {32}
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {14}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {499}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {40}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:AnatomyTerm]  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:dataSets_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:crossReferences_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:AnatomyTerm:36062016
+
+
+weso-s:intermine_voc:DOEvidence   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:evidence  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DOEvidence]                # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DOEvidence:32000004
+
+
+weso-s:intermine_voc:RNAiResult   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:phenotype  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:reagentId  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:rnaiScreen_id  @weso-s:intermine_voc:RNAiScreen  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:score  xsd:float  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:RNAiResult]                # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:RNAiResult:21000005
+
+
+weso-s:intermine_voc:CRM   # 3 instances.
+{
+   bio2rdf:intermine_voc:anatomyOntology_id  @weso-s:intermine_voc:AnatomyTerm  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:AnatomyTerm. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:AnatomyTerm. Cardinality: {2}
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:curated  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {67}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {41}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {35}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:CRM]                       # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:CRM:41000003
+
+
+weso-s:intermine_voc:InteractionExperiment   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:interactionDetectionMethods_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:interactions_id  IRI  +;              # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {4}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:InteractionDetail. Cardinality: +
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:participantIdentificationMethods_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publication_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:InteractionExperiment]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:comments_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:InteractionExperiment:56000034
+
+
+weso-s:intermine_voc:SampleCharacteristic   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:value  xsd:integer  ;                 # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SampleCharacteristic]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:SampleCharacteristic:22000731
+
+
+weso-s:intermine_voc:Sample   # 3 instances.
+{
+   bio2rdf:intermine_voc:assays_id  @weso-s:intermine_voc:MicroArrayAssay  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:MicroArrayAssay. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:MicroArrayAssay. Cardinality: {3}
+   bio2rdf:intermine_voc:characteristics_id  IRI  +;           # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {7}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:materialType  xsd:string  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryCharacteristic  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryCharacteristicType  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:treatments_id  IRI  {3};              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Sample]                    # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Sample:22078941
+
+
+weso-s:intermine_voc:OrthologueEvidenceCode   # 3 instances.
+{
+   bio2rdf:intermine_voc:abbreviation  xsd:string  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OrthologueEvidenceCode]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OrthologueEvidenceCode:19000003
+
+
+weso-s:intermine_voc:MicroArrayAssay   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:displayOrder  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:experiment_id  @weso-s:intermine_voc:MicroArrayExperiment  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:results_id  @weso-s:intermine_voc:MicroArrayResult  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sample1  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sample2  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:samples_id  @weso-s:intermine_voc:Sample  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Sample. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Sample. Cardinality: {1}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MicroArrayAssay]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MicroArrayAssay:22078940
+
+
+weso-s:intermine_voc:BioEntity   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:crossReferences_id  IRI  +;           # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {8}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {122}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Publication. Cardinality: {3}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {21}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {20}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {30}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:BioEntity]  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:interactions_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {42}
+   bio2rdf:intermine_voc:ontologyAnnotations_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+   bio2rdf:intermine_voc:symbol  xsd:string  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:BioEntity:1000007
+
+
+weso-s:intermine_voc:DevelopmentTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  {2};                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DevelopmentTerm]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DevelopmentTerm:42000007
+
+
+weso-s:intermine_voc:GOAnnotation   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:evidence_id  @weso-s:intermine_voc:OntologyEvidence  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontologyTerm_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:qualifier  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:subject_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:GOAnnotation]              # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:GOAnnotation:37000035
+
+
+weso-s:intermine_voc:GOEvidence   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:code_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:GOEvidence]                # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:GOEvidence:37000040
+
+
+weso-s:intermine_voc:OntologyTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  @weso-s:intermine_voc:Ontology  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  @weso-s:intermine_voc:OntologyTerm  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {705}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+   bio2rdf:intermine_voc:synonyms_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyTerm]  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  *
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:DataSet. Cardinality: {2}
+} // rdfs:comment bio2rdf:flymine:OntologyTerm:1000133
+
+
+weso-s:intermine_voc:RNASeqResult   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:expressionLevel  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:expressionScore  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:stage  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:RNASeqResult]              # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:RNASeqResult:38000004
+
+
+weso-s:intermine_voc:ECNumber   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:proteins_id  IRI  +;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {158}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {58}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {854}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ECNumber]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ECNumber:13000061
+
+
+weso-s:intermine_voc:DOTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  @weso-s:intermine_voc:Ontology  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+   bio2rdf:intermine_voc:relations_id  @weso-s:intermine_voc:OntologyRelation  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:OntologyRelation. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:OntologyRelation. Cardinality: {3}
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {24}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DOTerm]                    # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DOTerm:31000005
+
+
+weso-s:intermine_voc:SequenceFeature   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:SOTerm. Cardinality: {1}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SequenceFeature]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:symbol  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:synonyms_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {30}
+   bio2rdf:intermine_voc:length  xsd:integer  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ?;
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Organism. Cardinality: {1}
+   bio2rdf:intermine_voc:sequence_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:locatedFeatures_id  @weso-s:intermine_voc:Location  *;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {2}
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  @weso-s:intermine_voc:Location  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:crossReferences_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:cytoLocation  xsd:string  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:interactions_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {42}
+   bio2rdf:intermine_voc:locations_id  @weso-s:intermine_voc:Location  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:name  xsd:string  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:ontologyAnnotations_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+   bio2rdf:intermine_voc:publications_id  @weso-s:intermine_voc:Publication  *;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Publication. Cardinality: {3}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:SequenceFeature:10000306
+
+
+weso-s:intermine_voc:Sequence   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:residues  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Sequence]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Sequence:1003378
+
+
+weso-s:intermine_voc:Mutagen   # 3 instances.
+{
+   bio2rdf:intermine_voc:alleles_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1690}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2651}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4589}
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Allele. Cardinality: {1}
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Mutagen]                   # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Mutagen:1000652
+
+
+weso-s:intermine_voc:Treatment   # 3 instances.
+{
+   bio2rdf:intermine_voc:action  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Treatment]  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protocols_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:parameters_id  @weso-s:intermine_voc:TreatmentParameter  *
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:TreatmentParameter. Cardinality: {3}
+} // rdfs:comment bio2rdf:flymine:Treatment:22000016
+
+
+weso-s:intermine_voc:MRNAExpressionTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MRNAExpressionTerm]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MRNAExpressionTerm:42000021
+
+
+weso-s:intermine_voc:SnoRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {10}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SnoRNA]  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:probeSets_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+} // rdfs:comment bio2rdf:flymine:SnoRNA:1003844
+
+
+weso-s:intermine_voc:Exon   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {8}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {15}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  @weso-s:intermine_voc:Transcript  ;          # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Exon]                      # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Exon:1000217
+
+
+weso-s:intermine_voc:MiRNATarget   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:mirnagene_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {7};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:pvalue  xsd:float  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:score  xsd:float  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MiRNATarget]               # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MiRNATarget:55000006
+
+
+weso-s:intermine_voc:DataSource   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DataSource]  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ?;
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:DataSet. Cardinality: {1}
+   bio2rdf:intermine_voc:description  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:publications_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:url  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:DataSource:1000003
+
+
+weso-s:intermine_voc:NcRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {6};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:NcRNA]                     # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:NcRNA:1000970
+
+
+weso-s:intermine_voc:OntologyAnnotationEvidenceCode   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:code  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:url  IRI  ;                           # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyAnnotationEvidenceCode]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OntologyAnnotationEvidenceCode:37000002
+
+
+weso-s:intermine_voc:SOTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  @weso-s:intermine_voc:Ontology  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  @weso-s:intermine_voc:OntologyTerm  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {705}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+   bio2rdf:intermine_voc:synonyms_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SOTerm]  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  *
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:DataSet. Cardinality: {2}
+} // rdfs:comment bio2rdf:flymine:SOTerm:1000133
+
+
+weso-s:intermine_voc:Location   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:end  xsd:integer  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:feature_id  IRI  ;                    # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:BioEntity. Cardinality: {1}
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locatedOn_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:start  xsd:integer  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:strand  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Location]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Location:1000135
+
+
+weso-s:intermine_voc:CDS   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {28};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcript_id  IRI  ;                 # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:CDS]                       # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:CDS:44000006
+
+
+weso-s:intermine_voc:Homologue   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:evidence_id  @weso-s:intermine_voc:OrthologueEvidence  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:homologue_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Homologue]                 # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Homologue:19000009
+
+
+weso-s:intermine_voc:CVTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {218}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1162}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {223}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:CVTerm]  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:synonyms_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:CVTerm:53000006
+
+
+weso-s:intermine_voc:MiRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MiRNA]  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosome_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {17}
+} // rdfs:comment bio2rdf:flymine:MiRNA:1014338
+
+
+weso-s:intermine_voc:MobileGeneticElement   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MobileGeneticElement]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:chromosome_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:length  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {20}
+   bio2rdf:intermine_voc:sequence_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:MobileGeneticElement:1002912
+
+
+weso-s:intermine_voc:Organism   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:commonName  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genus  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:shortName  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:species  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:taxonId  xsd:integer  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Organism]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Organism:12000003
+
+
+weso-s:intermine_voc:Tissue   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:expressionResults_id  @weso-s:intermine_voc:FlyAtlasResult  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Tissue]                    # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Tissue:30000008
+
+
+weso-s:intermine_voc:Allele   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Allele]  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:mutagens_id  @weso-s:intermine_voc:Mutagen  ?;
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Mutagen. Cardinality: {1}
+   bio2rdf:intermine_voc:phenotypeAnnotations_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:stocks_id  @weso-s:intermine_voc:Stock  ?
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Stock. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Allele:1000228
+
+
+weso-s:intermine_voc:Component   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protein_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Component]                 # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Component:13001593
+
+
+weso-s:intermine_voc:ProteinDomain   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:crossReferences_id  IRI  +;           # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:shortName  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ProteinDomain]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:ProteinDomain:26036732
+
+
+weso-s:intermine_voc:GoldenPath   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:GoldenPath]                # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:GoldenPath:4635242
+
+
+weso-s:intermine_voc:SnRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {41}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {20}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {24}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SnRNA]  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:probeSets_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:SnRNA:1000976
+
+
+weso-s:intermine_voc:MeshTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  @weso-s:intermine_voc:Publication  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Publication. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Publication. Cardinality: {2}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MeshTerm]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MeshTerm:68000002
+
+
+weso-s:intermine_voc:Pathway   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  +;                     # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {856}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {35}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {15}
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:integer  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Pathway]  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Pathway:29000004
+
+
+weso-s:intermine_voc:OntologyRelation   # 3 instances.
+{
+   bio2rdf:intermine_voc:childTerm_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:direct  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parentTerm_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:redundant  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:relationship  xsd:string  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyRelation]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OntologyRelation:31000004
+
+
+weso-s:intermine_voc:Disease   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Disease]  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Disease:28000006
+
+
+weso-s:intermine_voc:RegulatoryRegion   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:RegulatoryRegion]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:RegulatoryRegion:1000628
+
+
+weso-s:intermine_voc:UniProtFeature   # 3 instances.
+{
+   bio2rdf:intermine_voc:begin  xsd:integer  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:end  xsd:integer  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:feature_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protein_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:UniProtFeature]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:UniProtFeature:13000025
+
+
+weso-s:intermine_voc:InteractionDetail   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:experiment_id  @weso-s:intermine_voc:InteractionExperiment  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:interaction_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:relationshipType  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:role1  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:role2  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:InteractionDetail]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:InteractionDetail:56000032
+
+
+weso-s:intermine_voc:DOAnnotation   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontologyTerm_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:qualifier  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:subject_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DOAnnotation]              # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DOAnnotation:32000007
+
+
+weso-s:intermine_voc:MRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:CDSs_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  @weso-s:intermine_voc:Exon  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:fivePrimeUTR_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:introns_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {47}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {41}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:probeSets_id  IRI  {2};               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protein_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:threePrimeUTR_id  IRI  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:UTRs_id  IRI  {2};                    # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MRNA]  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:microarrayOligos_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:miRNAinteractions_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+} // rdfs:comment bio2rdf:flymine:MRNA:1000225
+
+
+weso-s:intermine_voc:MRNAExpressionResult   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSet_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:expressed  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:mRNAExpressionTerms_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publication_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:stageRange  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:stages_id  IRI  +;                    # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:DevelopmentTerm. Cardinality: {3}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MRNAExpressionResult]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MRNAExpressionResult:42000033
+
+
+weso-s:intermine_voc:MicroarrayOligo   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:tm  xsd:float  ;                      # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MicroarrayOligo]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcript_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:MicroarrayOligo:25000008
+
+
+weso-s:intermine_voc:Annotatable   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {122}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {8}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Publication. Cardinality: {3}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Annotatable]  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontologyAnnotations_id  IRI  *
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+} // rdfs:comment bio2rdf:flymine:Annotatable:1000007
+
+
+weso-s:intermine_voc:ChromosomalDeletion   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomalDeletion]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ChromosomalDeletion:1001296
+
+
+weso-s:intermine_voc:Image   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:url  IRI  ;                           # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Image]                     # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Image:50000326
+
+
+weso-s:intermine_voc:OntologyEvidence   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:code_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyEvidence]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OntologyEvidence:37000034
+
+
+weso-s:intermine_voc:MicroArrayResult   # 3 instances.
+{
+   bio2rdf:intermine_voc:assays_id  @weso-s:intermine_voc:MicroArrayAssay  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:experiment_id  @weso-s:intermine_voc:MicroArrayExperiment  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:isControl  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:reporters_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:samples_id  @weso-s:intermine_voc:Sample  +;          # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Sample. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Sample. Cardinality: {1}
+   bio2rdf:intermine_voc:scale  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:value  xsd:float  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:MicroArrayResult]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:MicroArrayResult:22078946
+
+
+weso-s:intermine_voc:Ontology   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Ontology]  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:url  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Ontology:13000003
+
+
+weso-s:intermine_voc:PhenotypeAnnotation   # 3 instances.
+{
+   bio2rdf:intermine_voc:allele_id  IRI  ;                     # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:annotationType  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:PhenotypeAnnotation]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:cvTerms_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:PhenotypeAnnotation:5497072
+
+
+weso-s:intermine_voc:PointMutation   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {34}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {19}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {25}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  @weso-s:intermine_voc:SOTerm  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:PointMutation]             # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:PointMutation:1000143
+
+
+weso-s:intermine_voc:Publication   # 3 instances.
+{
+   bio2rdf:intermine_voc:abstractText  xsd:string  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doi  xsd:string  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:firstAuthor  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:issue  xsd:integer  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:journal  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:pubMedId  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:title  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:volume  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:year  xsd:integer  ;                  # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Publication]  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:month  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:pages  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:month  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:pages  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:authors_id  IRI  *
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+} // rdfs:comment bio2rdf:flymine:Publication:1000011
+
+
+weso-s:intermine_voc:FlyAtlasResult   # 3 instances.
+{
+   bio2rdf:intermine_voc:affyCall  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:enrichment  xsd:float  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:experiment_id  @weso-s:intermine_voc:MicroArrayExperiment  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  {2};                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:material_id  @weso-s:intermine_voc:ProbeSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:mRNASignal  xsd:float  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:presentCall  xsd:integer  ;           # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:tissue_id  @weso-s:intermine_voc:Tissue  ;          # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:FlyAtlasResult]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:mRNASignalSEM  xsd:float  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:float. Cardinality: {1}
+   bio2rdf:intermine_voc:mRNASignalSEM  xsd:integer  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:FlyAtlasResult:30000004
+
+
+weso-s:intermine_voc:Protocol   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Protocol]  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ?
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Protocol:22000002
+
+
+weso-s:intermine_voc:ChromosomeStructureVariation   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomeStructureVariation]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ChromosomeStructureVariation:1001296
+
+
+weso-s:intermine_voc:Gene   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  IRI  ;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Organism. Cardinality: {1}
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  @weso-s:intermine_voc:SOTerm  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {30}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Gene]  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:alleles_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {35}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:CDSs_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:chromosome_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:clones_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {30}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:crossReferences_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:cytoLocation  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:downstreamIntergenicRegion_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:exons_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {10}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:goAnnotation_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:homologues_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {13}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {37}
+   bio2rdf:intermine_voc:interactions_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {42}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:introns_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:length  xsd:integer  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:microArrayResults_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {207}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {27}
+   bio2rdf:intermine_voc:mRNAExpressionResults_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:ontologyAnnotations_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:probeSets_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:proteins_id  @weso-s:intermine_voc:Protein  *;
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Protein. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Protein. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Protein. Cardinality: {1}
+   bio2rdf:intermine_voc:publications_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {122}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {28}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Publication. Cardinality: {3}
+   bio2rdf:intermine_voc:rnaiResults_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {38}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {31}
+   bio2rdf:intermine_voc:rnaSeqResults_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {104}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:sequence_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:transcripts_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:upstreamIntergenicRegion_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:UTRs_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:name  xsd:string  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:pathways_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+   bio2rdf:intermine_voc:regulatoryRegions_id  IRI  *
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+} // rdfs:comment bio2rdf:flymine:Gene:10000306
+
+
+weso-s:intermine_voc:Synonym   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:subject_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Synonym]  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:value  xsd:float  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:float. Cardinality: {1}
+   bio2rdf:intermine_voc:value  xsd:string  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:value  xsd:integer  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Synonym:10090153
+
+
+weso-s:intermine_voc:ThreePrimeUTR   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {12};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  ;                # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ThreePrimeUTR]             # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ThreePrimeUTR:46000002
+
+
+weso-s:intermine_voc:RRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {6};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:RRNA]                      # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:RRNA:1000979
+
+
+weso-s:intermine_voc:ChromosomalDuplication   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomalDuplication]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ChromosomalDuplication:1687118
+
+
+weso-s:intermine_voc:InteractionRegion   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:endStatus  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:interaction_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontologyTerm_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:startStatus  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:InteractionRegion]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:InteractionRegion:56000564
+
+
+weso-s:intermine_voc:OntologyTermSynonym   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyTermSynonym]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OntologyTermSynonym:20000003
+
+
+weso-s:intermine_voc:EST   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Sequence. Cardinality: {1}
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:EST]                       # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:EST:1003449
+
+
+weso-s:intermine_voc:TreatmentParameter   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:treatment_id  @weso-s:intermine_voc:Treatment  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:TreatmentParameter]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:value  xsd:integer  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:TreatmentParameter:22000018
+
+
+weso-s:intermine_voc:Reporter   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:isControl  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:results_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Reporter]  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:material_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:controlType  xsd:string  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Reporter:22003475
+
+
+weso-s:intermine_voc:OntologyAnnotation   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontologyTerm_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:qualifier  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:subject_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OntologyAnnotation]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OntologyAnnotation:32000007
+
+
+weso-s:intermine_voc:ProbeSet   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  {2};                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  +;                     # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:results_id  IRI  {27};                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  +;               # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+   rdf:type  [bio2rdf:intermine_voc:ProbeSet]                  # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ProbeSet:30000059
+
+
+weso-s:intermine_voc:FivePrimeUTR   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  ;                # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:FivePrimeUTR]              # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:FivePrimeUTR:45000010
+
+
+weso-s:intermine_voc:ChromosomeBand   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomeBand]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosome_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {972}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {91}
+} // rdfs:comment bio2rdf:flymine:ChromosomeBand:1044276
+
+
+weso-s:intermine_voc:Stock   # 3 instances.
+{
+   bio2rdf:intermine_voc:alleles_id  IRI  +;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Allele. Cardinality: {1}
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:stockCenter  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Stock]                     # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Stock:1003263
+
+
+weso-s:intermine_voc:Comment   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:type  xsd:string  ;                   # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Comment]                   # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Comment:13000007
+
+
+weso-s:intermine_voc:SequenceCollection   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:SequenceCollection]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:SequenceCollection:1000631
+
+
+weso-s:intermine_voc:ChromosomalTranslocation   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomalTranslocation]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ChromosomalTranslocation:1044767
+
+
+weso-s:intermine_voc:NaturalTransposableElement   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:NaturalTransposableElement]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:transposableElements_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:TransposableElement. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:NaturalTransposableElement:1002501
+
+
+weso-s:intermine_voc:CrossReference   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:source_id  IRI  ;                     # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:subject_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:CrossReference]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:CrossReference:11000544
+
+
+weso-s:intermine_voc:Oligo   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Sequence. Cardinality: {1}
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Oligo]                     # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Oligo:1003449
+
+
+weso-s:intermine_voc:MicroArrayExperiment   # 2 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (2 instances).
+   rdf:type  [bio2rdf:intermine_voc:MicroArrayExperiment]  ;          # 100.0 % (2 instances).
+   bio2rdf:intermine_voc:assays_id  @weso-s:intermine_voc:MicroArrayAssay  *;
+            # 50.0 % (1 instance). obj: @weso-s:intermine_voc:MicroArrayAssay. Cardinality: {3}
+   bio2rdf:intermine_voc:identifier  xsd:string  ?;
+            # 50.0 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:publication_id  IRI  ?
+            # 50.0 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:MicroArrayExperiment:30000006
+
+
+weso-s:intermine_voc:UTR   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {7}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {9}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  ;                # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:UTR]                       # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:UTR:45000006
+
+
+weso-s:intermine_voc:TransposableElementInsertionSite   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  @weso-s:intermine_voc:SOTerm  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:TransposableElementInsertionSite]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  @weso-s:intermine_voc:Location  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:length  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  @weso-s:intermine_voc:Location  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Location. Cardinality: {1}
+   bio2rdf:intermine_voc:publications_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+   bio2rdf:intermine_voc:sequence_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:symbol  xsd:string  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:TransposableElementInsertionSite:1000190
+
+
+weso-s:intermine_voc:CDNAClone   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:CDNAClone]  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ?;
+            # 66.66666666666666 % (2 instances). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:integer  ?
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:CDNAClone:1001415
+
+
+weso-s:intermine_voc:Protein   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:crossReferences_id  IRI  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genbankIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  @weso-s:intermine_voc:Gene  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:isFragment  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:isUniprotCanonical  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:keywords_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {7}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:md5checksum  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:molecularWeight  xsd:integer  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryAccession  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:proteinDomainRegions_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {15}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {14}
+   bio2rdf:intermine_voc:publications_id  IRI  +;              # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {8}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {20}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {21}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:uniprotAccession  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:uniprotName  xsd:string  ;            # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Protein]  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:comments_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Protein:1000006
+
+
+weso-s:intermine_voc:DatabaseReference   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:source_id  @weso-s:intermine_voc:DataSource  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DatabaseReference]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DatabaseReference:37000031
+
+
+weso-s:intermine_voc:TFBindingSite   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:factor_id  IRI  ;                     # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  {30};          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:TFBindingSite]             # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:TFBindingSite:40000006
+
+
+weso-s:intermine_voc:DataSet   # 3 instances.
+{
+   bio2rdf:intermine_voc:bioEntities_id  IRI  +;               # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {62385}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {43069}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2179991}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:BioEntity. Cardinality: {3}
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSource_id  IRI  ;                 # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:DataSource. Cardinality: {1}
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:DataSet]                   # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:DataSet:11000002
+
+
+weso-s:intermine_voc:Author   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  @weso-s:intermine_voc:Publication  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Author]                    # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Author:68000021
+
+
+weso-s:intermine_voc:TRNA   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {12}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:TRNA]                      # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:TRNA:1001346
+
+
+weso-s:intermine_voc:Intron   # 3 instances.
+{
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:genes_id  IRI  ;                      # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {29}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {27}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {23}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:transcripts_id  IRI  +;               # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   rdf:type  [bio2rdf:intermine_voc:Intron]                    # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Intron:1855598
+
+
+weso-s:intermine_voc:GOTerm   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:description  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:obsolete  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:ontology_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:parents_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {13}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+   bio2rdf:intermine_voc:relations_id  IRI  +;                 # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {12}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {16}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:GOTerm]  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ?;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:ontologyAnnotations_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:synonyms_id  IRI  *
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {3}
+} // rdfs:comment bio2rdf:flymine:GOTerm:35000005
+
+
+weso-s:intermine_voc:ProteinDomainRegion   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:database  xsd:string  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:end  xsd:integer  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protein_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:proteinDomain_id  IRI  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:start  xsd:integer  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ProteinDomainRegion]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ProteinDomainRegion:27000002
+
+
+weso-s:intermine_voc:Interaction   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:details_id  IRI  +;                   # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {27}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:participant1_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:participant2_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Interaction]               # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Interaction:56000039
+
+
+weso-s:intermine_voc:IntergenicRegion   # 3 instances.
+{
+   bio2rdf:intermine_voc:adjacentGenes_id  IRI  +;             # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosome_id  @weso-s:intermine_voc:Chromosome  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:IntergenicRegion]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:IntergenicRegion:69000004
+
+
+weso-s:intermine_voc:GOEvidenceCode   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:code  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:url  IRI  ;                           # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:GOEvidenceCode]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:GOEvidenceCode:37000001
+
+
+weso-s:intermine_voc:TransposableElement   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:TransposableElement]  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  *;
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: +
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {6}
+   bio2rdf:intermine_voc:chromosome_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:insertedElement_id  @weso-s:intermine_voc:NaturalTransposableElement  ?;
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:NaturalTransposableElement. Cardinality: {1}
+   bio2rdf:intermine_voc:length  xsd:integer  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:integer. Cardinality: {1}
+   bio2rdf:intermine_voc:locations_id  IRI  ?;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  *;
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {20}
+   bio2rdf:intermine_voc:sequence_id  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:TransposableElement:1002501
+
+
+weso-s:intermine_voc:Transcript   # 3 instances.
+{
+   bio2rdf:intermine_voc:CDSs_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:chromosome_id  IRI  ;                 # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:Chromosome. Cardinality: {1}
+   bio2rdf:intermine_voc:chromosomeLocation_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:exons_id  @weso-s:intermine_voc:Exon  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:gene_id  IRI  ;                       # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:introns_id  IRI  +;                   # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {5}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locations_id  IRI  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:overlappingFeatures_id  IRI  +;          # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {11}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {41}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {47}
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:probeSets_id  IRI  {2};               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:protein_id  IRI  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:symbol  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:synonyms_id  IRI  +;                  # 100.0 % (3 instances).
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {2}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {4}
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:UTRs_id  IRI  {2};                    # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Transcript]  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:microarrayOligos_id  IRI  ?
+            # 66.66666666666666 % (2 instances). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:Transcript:1000218
+
+
+weso-s:intermine_voc:Chromosome   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:length  xsd:integer  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:locatedFeatures_id  IRI  +;           # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {126815}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {97248}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {100730}
+            # 66.66666666666666 % (2 instances). obj: @weso-s:intermine_voc:Location. Cardinality: +
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequence_id  IRI  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:Chromosome]                # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:Chromosome:1000145
+
+
+weso-s:intermine_voc:ChromosomalInversion   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:dataSets_id  @weso-s:intermine_voc:DataSet  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:organism_id  @weso-s:intermine_voc:Organism  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:primaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publications_id  IRI  ;               # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:secondaryIdentifier  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:sequenceOntologyTerm_id  IRI  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:ChromosomalInversion]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:ChromosomalInversion:1004499
+
+
+weso-s:intermine_voc:OrthologueEvidence   # 3 instances.
+{
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:evidenceCode_id  @weso-s:intermine_voc:OrthologueEvidenceCode  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:OrthologueEvidence]            # 100.0 % (3 instances).
+} // rdfs:comment bio2rdf:flymine:OrthologueEvidence:57000005
+
+
+weso-s:intermine_voc:RNAiScreen   # 3 instances.
+{
+   bio2rdf:intermine_voc:assay  xsd:string  ;                  # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:bioSourceName  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:bioSourceType  xsd:string  ;          # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:class_name  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:doc_id  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:id  xsd:integer  ;                    # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:identifier  xsd:string  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:json_len  xsd:integer  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:library  xsd:string  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:method  xsd:string  ;                 # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:name  xsd:string  ;                   # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:namespace  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:publication_id  IRI  ;                # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:reagentType  xsd:string  ;            # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:rnaiResults_id  IRI  +;               # 100.0 % (3 instances).
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {114}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {35396}
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {89}
+            # 33.33333333333333 % (1 instance). obj: @weso-s:intermine_voc:RNAiResult. Cardinality: {3}
+   bio2rdf:intermine_voc:scoreType  xsd:string  ;              # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:timestamp  xsd:string  ;              # 100.0 % (3 instances).
+   rdf:type  [bio2rdf:intermine_voc:RNAiScreen]  ;             # 100.0 % (3 instances).
+   bio2rdf:intermine_voc:scoreCutoff  xsd:float  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:float. Cardinality: {1}
+   bio2rdf:intermine_voc:scoreCutoff  xsd:string  ?;
+            # 33.33333333333333 % (1 instance). obj: xsd:string. Cardinality: {1}
+   bio2rdf:intermine_voc:scoreCutoff  IRI  ?
+            # 33.33333333333333 % (1 instance). obj: IRI. Cardinality: {1}
+} // rdfs:comment bio2rdf:flymine:RNAiScreen:21047759
+
+
